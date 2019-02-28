@@ -298,3 +298,76 @@ p {
     margin-right: 20px;
     border-radius: 50%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* NOVA STRANA*/
+/* KONTAKT ******************************************************************************/
+
+
+#form .form-group{
+    margin-bottom: 20px;
+}
+
+#form label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+#form input,
+#form textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+}
+
+#form textarea{
+    height: 200px;
+}
+
+
+#form h1{
+    font-size: 50px;
+    padding-top: 30px;
+}
+
+#form input:focus,
+#form textarea:focus{
+    outline: none;
+    border-color: #f7c08a;
+}
+
+#form div button{
+    margin-bottom: 30px;
+}
+/* CONTANCT INFO ********************************************************************/
+
+
+.ab{
+    background: #333;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
