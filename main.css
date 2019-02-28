@@ -45,7 +45,7 @@ p {
     font-size: 20px;
 }
 
-.btn{
+.btn {
     display: inline-block;
     font-size: 18px;
     color: #fff;
@@ -56,12 +56,12 @@ p {
 
 }
 
-.btn:hover{
+.btn:hover {
     background: #f7c08a;
     color: #333;
 }
 
-.btn-light{
+.btn-light {
     display: inline-block;
     font-size: 18px;
     color: #333;
@@ -71,27 +71,28 @@ p {
     cursor: pointer;
 }
 
-.bg-dark{
+.bg-dark {
     background: #333;
     color: #fff;
 
 }
 
-.bg-light{
+.bg-light {
     background: #f4f4f4;
     color: #333;
 
 }
 
-.bg-primary{
+.bg-primary {
     background: #f7c08a;
     color: #333;
 
 }
 
-.clr{
+.clr {
     clear: both;
 }
+
 /**************************NAV BAR************************************************************/
 
 #navbar {
@@ -167,13 +168,14 @@ p {
     line-height: 1.7em;
 
 }
+
 /* HOME INFO *************************************************************************/
 
-#home-info{
+#home-info {
     height: 400px;
 }
 
-#home-info .info-img{
+#home-info .info-img {
     float: left;
     width: 50%;
     background: url('assets/photo-1.jpg');
@@ -181,7 +183,7 @@ p {
     background-repeat: no-repeat;
 }
 
-#home-info .info-content{
+#home-info .info-content {
     float: right;
     width: 50%;
     height: 100%;
@@ -191,25 +193,27 @@ p {
 }
 
 .info-content p,
-.info-content h2{
+.info-content h2 {
     padding-bottom: 30px;
     color: #fff;
 }
+
 /* FEATURS ***************************************************************************/
 
-.box{
+.box {
     float: left;
     width: 33.3%;
     padding: 50px;
     text-align-last: center;
 }
 
-.box i{
- margin-bottom: 20px;
+.box i {
+    margin-bottom: 20px;
 }
+
 /* FOOTER**************************************************************************************/
 
-#main-footer{
+#main-footer {
     text-align: center;
     background: #444;
     color: white;
@@ -228,7 +232,69 @@ p {
 
 
 
+/* NOVA STRANA*/
 
+/* About**************************************************************************/
 
+.container2 {
+    max-width: 1100px;
+    margin: auto;
+    overflow: auto;
+    padding: 20px 20px;
+    overflow: hidden;
 
+}
 
+.about .about-text {
+    width: 60%;
+    padding-top: 10px;
+    text-align-last: left;
+    float: left;
+}
+
+.about h2 {
+    text-align: left;
+}
+
+.about .about-img {
+    width: 40%;
+    float: right;
+}
+
+.about img {
+    width: 70%;
+    display: block;
+    border-radius: 100%;
+    margin: 30px;
+}
+
+/* Testemonies **************************************************************************/
+
+#testimonials {
+    background: url('assets/test-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    padding-top: 20px;
+}
+
+#testimonials div{
+    padding: 20px;
+    margin-bottom: 40px;
+    opacity: 0.9;
+}
+
+#testimonials h2{
+    color: white;
+    text-align: center;
+    padding-bottom: 70px;
+    font-size: 65px;
+}
+
+#testimonials div img{
+    width: 100px;
+
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
